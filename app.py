@@ -1,6 +1,8 @@
+import dash_bootstrap_components as dbc
 import dash
 from dash import dcc,html
 from dash.dependencies import Input, Output, State
+
 
 
 
@@ -14,7 +16,7 @@ githublink = 'https://github.com/mirandaprasad/501-linear-reg-ames-housing'
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 server = app.server
 app.title=tabtitle
 
