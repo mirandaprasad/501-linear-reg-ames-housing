@@ -15,7 +15,7 @@ githublink = 'https://github.com/mirandaprasad/501-linear-reg-ames-housing'
 
 
 ########### Initiate the app
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+#external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 server = app.server
 app.title=tabtitle
